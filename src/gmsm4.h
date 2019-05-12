@@ -16,6 +16,7 @@ struct Sm4CbcResult
 {
     byte *cypher;
     int length;
+    int plain_length;
     byte iv[16];
     
     byte* BERencode();

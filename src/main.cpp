@@ -47,7 +47,7 @@ int main(int argc, const char * argv[]) {
     memcpy(SM4_BER->iv, result->iv, 20);
     SM4_BER->BERdecode(result->BERencode());
     cout << Sm4DecCBCIV(key, SM4_BER) << endl;
-    
+    cout << SM4_BER->plain_length << endl;
 //    test1();
     return 0;
 }
