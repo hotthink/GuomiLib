@@ -10,6 +10,7 @@
 
 #include "sm2/sm2.h"
 #include "gmsm3.h"
+#include "asn1/BER.h"
 
 typedef unsigned char byte;
 //Sm2 encryption result
@@ -17,13 +18,18 @@ struct SM2_Cypher {
     byte *cypher;
     int length;
     
+    byte* BERencode();
+    void BERdecode(byte* input);
     ~SM2_Cypher();
 };
 
 //Signature information, including the byte string and its length
 struct SigInfo {
     byte Signature[256];
-    unsigned int length;
+    int length;
+    
+    byte* BERencode();
+    void BERdecode(byte* input);
     ~SigInfo();
 };
 
@@ -35,6 +41,8 @@ struct PublicKey {
     
     bool VerifySignature(SigInfo *sig, byte *msg, int msg_length);   //The verifying method
     SM2_Cypher *SM2_Encrypt(byte *msg, int msg_length);
+    byte* BERencode();
+    void BERdecode(byte* input);
     ~PublicKey();
 };
 

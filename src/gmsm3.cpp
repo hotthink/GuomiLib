@@ -1,4 +1,5 @@
 #include "gmsm3.h"
+#include "asn1/BER.h"
 #include <iostream>
 using namespace std;
 
@@ -15,4 +16,21 @@ byte* sm3_hash(byte *msg, int length)
     {
         return NULL;
     }
+}
+
+byte* sm3_hash2BER(byte *dgst)
+{
+    byte *output = NULL;
+    Bytes_encode(dgst, SM3_DIGEST_LENGTH, &output);
+    
+    return output;
+}
+
+byte* sm3_hashBER_decode(byte *input)
+{
+    byte *output = NULL;
+    int length = 0;
+    Bytes_decode(&output, &length, input);
+    
+    return output;
 }

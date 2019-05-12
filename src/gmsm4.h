@@ -18,6 +18,8 @@ struct Sm4CbcResult
     int length;
     byte iv[16];
     
+    byte* BERencode();
+    void BERdecode(byte* input);
     ~Sm4CbcResult();
 };
 

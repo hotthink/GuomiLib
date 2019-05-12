@@ -1,4 +1,4 @@
-//
+
 //  gmsm2.cpp
 //  gmssl
 //
@@ -70,15 +70,48 @@ byte* SignHashSm3(PublicKey *pub_key, byte *msg, int msg_length){
     
 }
 
+byte* SM2_Cypher::BERencode()
+{
+    byte *output = NULL;
+    Bytes_encode(this->cypher, this->length + ECC_BYTES * 2 + SM3_DIGEST_LENGTH, &output);
+    
+    return output;
+}
+
+void SM2_Cypher::BERdecode(byte *input)
+{
+    Bytes_decode(&(this->cypher), &(this->length), input);
+    this->length -= ECC_BYTES * 2 + SM3_DIGEST_LENGTH;
+}
+
 SM2_Cypher::~SM2_Cypher(){
     if(this->cypher != NULL)
         delete[] this->cypher;
 }
 
+byte* SigInfo::BERencode()
+{
+    byte *output = NULL;
+    Bytes_encode(this->Signature, this->length, &output);
+    
+    return output;
+}
+
+void SigInfo::BERdecode(byte *input)
+{
+    byte *temp = NULL;
+    
+    Bytes_decode(&(temp), &(this->length), input);
+    memcpy(this->Signature, temp, this->length);
+    
+    if(temp != NULL)
+        delete[] temp;
+}
+
 SigInfo* PrivateKey::Sign(byte *msg, int msg_length)
 {
     SigInfo *sig = new SigInfo;
-    sig->length = (unsigned int)(256);
+    sig->length = (unsigned int)(64);
     byte *dgst = SignHashSm3(&this->PubKey, msg, msg_length);
     int pid = sm2_sign(this->Key, dgst, sig->Signature);
     
@@ -116,6 +149,19 @@ bool PublicKey::VerifySignature(SigInfo *sig, byte *msg, int msg_length)
     {
         return false;
     }
+}
+
+byte* PublicKey::BERencode()
+{
+    byte *output = NULL;
+    SM2_PublicKey_encode(this->X, this->Y, &output);
+    
+    return output;
+}
+
+void PublicKey::BERdecode(byte *input)
+{
+    SM2_PublicKey_decode(this->X, this->Y, input);
 }
 
 SM2_Cypher* PublicKey::SM2_Encrypt(byte *msg, int msg_length){
