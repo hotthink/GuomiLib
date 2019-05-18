@@ -127,6 +127,7 @@ GuomiLib: CMakeFiles/GuomiLib.dir/build.make
 GuomiLib: libSM2.a
 GuomiLib: libSM3.a
 GuomiLib: libSM4.a
+GuomiLib: libASN1.a
 GuomiLib: CMakeFiles/GuomiLib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GuomiLib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GuomiLib.dir/link.txt --verbose=$(VERBOSE)

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/asn1/BER.c
+BER.h
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/asn1/BER.h
+math.h
+-
+
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/asn1/BER.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+

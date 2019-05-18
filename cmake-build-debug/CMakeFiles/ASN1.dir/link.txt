@@ -1,0 +1,2 @@
+/usr/bin/ar qc libASN1.a  CMakeFiles/ASN1.dir/src/asn1/BER.c.o
+/usr/bin/ranlib libASN1.a

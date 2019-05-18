@@ -36,7 +36,8 @@ void get_length(int* length, byte* len_field)
     else
     {
         int n = len_field[0] & 0x7F;
-        for(int i = 1; i <= n; i++)
+        int i;
+        for(i = 1; i <= n; i++)
         {
             *length = (*length) << 7;
             *length += len_field[i] & 0x7F;

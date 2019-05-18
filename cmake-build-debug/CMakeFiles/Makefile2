@@ -69,11 +69,12 @@ CMAKE_BINARY_DIR = /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-de
 
 # All Build rule for target.
 CMakeFiles/GuomiLib.dir/all: CMakeFiles/SM4.dir/all
+CMakeFiles/GuomiLib.dir/all: CMakeFiles/ASN1.dir/all
 CMakeFiles/GuomiLib.dir/all: CMakeFiles/SM3.dir/all
 CMakeFiles/GuomiLib.dir/all: CMakeFiles/SM2.dir/all
 	$(MAKE) -f CMakeFiles/GuomiLib.dir/build.make CMakeFiles/GuomiLib.dir/depend
 	$(MAKE) -f CMakeFiles/GuomiLib.dir/build.make CMakeFiles/GuomiLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target GuomiLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Built target GuomiLib"
 .PHONY : CMakeFiles/GuomiLib.dir/all
 
 # Include target in all.
@@ -83,7 +84,7 @@ all: CMakeFiles/GuomiLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GuomiLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GuomiLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/GuomiLib.dir/rule
@@ -110,7 +111,7 @@ clean: CMakeFiles/GuomiLib.dir/clean
 CMakeFiles/SM4.dir/all:
 	$(MAKE) -f CMakeFiles/SM4.dir/build.make CMakeFiles/SM4.dir/depend
 	$(MAKE) -f CMakeFiles/SM4.dir/build.make CMakeFiles/SM4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target SM4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target SM4"
 .PHONY : CMakeFiles/SM4.dir/all
 
 # Include target in all.
@@ -141,13 +142,50 @@ clean: CMakeFiles/SM4.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ASN1.dir
+
+# All Build rule for target.
+CMakeFiles/ASN1.dir/all:
+	$(MAKE) -f CMakeFiles/ASN1.dir/build.make CMakeFiles/ASN1.dir/depend
+	$(MAKE) -f CMakeFiles/ASN1.dir/build.make CMakeFiles/ASN1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ASN1"
+.PHONY : CMakeFiles/ASN1.dir/all
+
+# Include target in all.
+all: CMakeFiles/ASN1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ASN1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ASN1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ASN1.dir/rule
+
+# Convenience name for target.
+ASN1: CMakeFiles/ASN1.dir/rule
+
+.PHONY : ASN1
+
+# clean rule for target.
+CMakeFiles/ASN1.dir/clean:
+	$(MAKE) -f CMakeFiles/ASN1.dir/build.make CMakeFiles/ASN1.dir/clean
+.PHONY : CMakeFiles/ASN1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ASN1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/SM3.dir
 
 # All Build rule for target.
 CMakeFiles/SM3.dir/all:
 	$(MAKE) -f CMakeFiles/SM3.dir/build.make CMakeFiles/SM3.dir/depend
 	$(MAKE) -f CMakeFiles/SM3.dir/build.make CMakeFiles/SM3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target SM3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target SM3"
 .PHONY : CMakeFiles/SM3.dir/all
 
 # Include target in all.
@@ -184,7 +222,7 @@ clean: CMakeFiles/SM3.dir/clean
 CMakeFiles/SM2.dir/all:
 	$(MAKE) -f CMakeFiles/SM2.dir/build.make CMakeFiles/SM2.dir/depend
 	$(MAKE) -f CMakeFiles/SM2.dir/build.make CMakeFiles/SM2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target SM2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target SM2"
 .PHONY : CMakeFiles/SM2.dir/all
 
 # Include target in all.

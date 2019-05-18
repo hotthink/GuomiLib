@@ -137,6 +137,19 @@ SM4/fast:
 .PHONY : SM4/fast
 
 #=============================================================================
+# Target rules for targets named ASN1
+
+# Build rule for target.
+ASN1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ASN1
+.PHONY : ASN1
+
+# fast build rule for target.
+ASN1/fast:
+	$(MAKE) -f CMakeFiles/ASN1.dir/build.make CMakeFiles/ASN1.dir/build
+.PHONY : ASN1/fast
+
+#=============================================================================
 # Target rules for targets named SM3
 
 # Build rule for target.
@@ -161,6 +174,33 @@ SM2: cmake_check_build_system
 SM2/fast:
 	$(MAKE) -f CMakeFiles/SM2.dir/build.make CMakeFiles/SM2.dir/build
 .PHONY : SM2/fast
+
+src/asn1/BER.o: src/asn1/BER.c.o
+
+.PHONY : src/asn1/BER.o
+
+# target to build an object file
+src/asn1/BER.c.o:
+	$(MAKE) -f CMakeFiles/ASN1.dir/build.make CMakeFiles/ASN1.dir/src/asn1/BER.c.o
+.PHONY : src/asn1/BER.c.o
+
+src/asn1/BER.i: src/asn1/BER.c.i
+
+.PHONY : src/asn1/BER.i
+
+# target to preprocess a source file
+src/asn1/BER.c.i:
+	$(MAKE) -f CMakeFiles/ASN1.dir/build.make CMakeFiles/ASN1.dir/src/asn1/BER.c.i
+.PHONY : src/asn1/BER.c.i
+
+src/asn1/BER.s: src/asn1/BER.c.s
+
+.PHONY : src/asn1/BER.s
+
+# target to generate assembly for a file
+src/asn1/BER.c.s:
+	$(MAKE) -f CMakeFiles/ASN1.dir/build.make CMakeFiles/ASN1.dir/src/asn1/BER.c.s
+.PHONY : src/asn1/BER.c.s
 
 src/gmsm2.o: src/gmsm2.cpp.o
 
@@ -357,12 +397,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... GuomiLib"
 	@echo "... SM4"
-	@echo "... edit_cache"
+	@echo "... ASN1"
 	@echo "... SM3"
 	@echo "... rebuild_cache"
 	@echo "... SM2"
+	@echo "... src/asn1/BER.o"
+	@echo "... src/asn1/BER.i"
+	@echo "... src/asn1/BER.s"
 	@echo "... src/gmsm2.o"
 	@echo "... src/gmsm2.i"
 	@echo "... src/gmsm2.s"

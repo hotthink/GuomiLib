@@ -49,6 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GuomiLib.dir/DependInfo.cmake"
   "CMakeFiles/SM4.dir/DependInfo.cmake"
+  "CMakeFiles/ASN1.dir/DependInfo.cmake"
   "CMakeFiles/SM3.dir/DependInfo.cmake"
   "CMakeFiles/SM2.dir/DependInfo.cmake"
   )
