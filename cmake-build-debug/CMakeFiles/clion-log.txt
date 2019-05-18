@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/opt/intel/bin/icc -DCMAKE_CXX_COMPILER=/opt/intel/bin/icpc -G "CodeBlocks - Unix Makefiles" /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug

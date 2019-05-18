@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSM3.a  CMakeFiles/SM3.dir/src/sm3/sm3.c.o
+/usr/bin/ranlib libSM3.a

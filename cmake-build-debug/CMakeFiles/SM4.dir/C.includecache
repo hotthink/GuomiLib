@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/include/e_os2.h
+opensslconf.h
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/include/opensslconf.h
+inttypes.h
+-
+stdint.h
+-
+
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/include/opensslconf.h
+
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm4/sm4.c
+../include/e_os2.h
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/include/e_os2.h
+sm4.h
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm4/sm4.h
+string.h
+-
+stdlib.h
+-
+
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm4/sm4.h
+../include/opensslconf.h
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/include/opensslconf.h
+../include/e_os2.h
+/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/include/e_os2.h
+

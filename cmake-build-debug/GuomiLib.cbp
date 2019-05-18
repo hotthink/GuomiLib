@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GuomiLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="icc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GuomiLib">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/GuomiLib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 GuomiLib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GuomiLib/fast">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/GuomiLib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 GuomiLib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SM4">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/libSM4.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 SM4"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SM4/fast">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/libSM4.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 SM4/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SM3">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/libSM3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 SM3"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SM3/fast">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/libSM3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 SM3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SM2">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/libSM2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 SM2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SM2/fast">
+				<Option output="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/libSM2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="icc"/>
+				<Compiler>
+					<Add directory="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/pstl/include"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include/icc"/>
+					<Add directory="/opt/intel/bin/../compilers_and_libraries/mac/bin/../../../compilers_and_libraries_2019.1.144/mac/compiler/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 SM2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/gmsm2.cpp">
+			<Option target="GuomiLib"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/gmsm2.h">
+			<Option target="GuomiLib"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/gmsm3.cpp">
+			<Option target="GuomiLib"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/gmsm3.h">
+			<Option target="GuomiLib"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/gmsm4.cpp">
+			<Option target="GuomiLib"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/gmsm4.h">
+			<Option target="GuomiLib"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/main.cpp">
+			<Option target="GuomiLib"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm2/sm2.c">
+			<Option target="SM2"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm2/sm2.h">
+			<Option target="SM2"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm3/sm3.c">
+			<Option target="SM3"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm3/sm3.h">
+			<Option target="SM3"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm3/sm3_locl.h">
+			<Option target="SM3"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm4/sm4.c">
+			<Option target="SM4"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/src/sm4/sm4.h">
+			<Option target="SM4"/>
+		</Unit>
+		<Unit filename="/Users/jinlianyuan/CLionProjects/SRTP/GuomiLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

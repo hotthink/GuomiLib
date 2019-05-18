@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSM2.a  CMakeFiles/SM2.dir/src/sm2/sm2.c.o
+/usr/bin/ranlib libSM2.a
